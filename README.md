@@ -48,4 +48,4 @@ Este projeto é de código aberto e está disponível para uso e modificação.
 ## Contato
 
 - **LinkedIn:** [https://www.linkedin.com/in/pedro-zeferino-da-silva-625394330](https://www.linkedin.com/in/pedro-zeferino-da-silva-625394330)
-- **GitPages:** []
+- **GitPages:** [https://pedrozef.github.io/clonando_pagina_youtube_com_flexbox/](https://pedrozef.github.io/clonando_pagina_youtube_com_flexbox/)
