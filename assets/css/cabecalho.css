@@ -1,0 +1,78 @@
+.cabecalho {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 24px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.icone-menu {
+    height: 30px;
+    cursor: pointer;
+}
+
+.icone-youtube {
+    height: 24px;
+    width: auto;
+    cursor: pointer;
+}
+
+.container-icones-plataforma,
+.container-usuario {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    flex-shrink: 0;
+}
+
+.container-pesquisa {
+    display: flex;
+    align-items: center;
+    flex: 0 1 720px;
+    margin: 0 20px;
+    min-width: 0;
+}
+
+.input-pesquisa {
+    flex: 1;
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 40px 0 0 40px;
+    outline: none;
+    font-size: 16px;
+}
+
+.icone-search {
+    width: 19px;
+    height: 19px;
+}
+
+.btn-pesquisa {
+    background-color: #f8f8f8;
+    border: 1px solid #ccc;
+    border-left: none;
+    padding: 5px 20px;
+    border-radius: 0 40px 40px 0;
+    cursor: pointer;
+    height: 37px;
+}
+
+.icone-camera {
+    width: 24px;
+}
+
+.icone-notificacao {
+    width: 24px;
+}
+
+.icone-usuario {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}

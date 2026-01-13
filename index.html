@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Clone do Youtube</title>
+
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/cabecalho.css" />
+
+    <link rel="icon" href="./assets/img/youtube.png" type="image/png" />
+  </head>
+  <body>
+    <header class="cabecalho">
+      <nav class="container-icones-plataforma">
+        <img
+          src="./assets/img/reshot-icon-menu.svg"
+          alt="Abrir menu lateral"
+          class="icone-menu"
+        />
+        <a href="https://www.youtube.com.br" target="_blank" rel="noopener">
+          <img
+            src="./assets/img/youtube-logo.png"
+            alt="Logo do YouTube"
+            class="icone-youtube"
+          />
+        </a>
+      </nav>
+      <form class="container-pesquisa" role="search">
+        <input
+          type="text"
+          name="search"
+          placeholder="Pesquisar"
+          class="input-pesquisa"
+        />
+        <button type="submit" class="btn-pesquisa">
+          <img
+            src="./assets/img/reshot-icon-search.svg"
+            alt="Botão de pesquisa"
+            class="icone-search"
+          />
+        </button>
+      </form>
+      <section class="container-usuario">
+        <img
+          src="./assets/img/icon-camera.svg"
+          alt="Criar vídeo"
+          class="icone-camera"
+        />
+        <img
+          src="./assets/img/bell.png"
+          alt="Notificações"
+          class="icone-notificacao"
+        />
+        <img
+          src="./assets/img/my-fhoto.jpg"
+          alt="Foto do perfil"
+          class="icone-usuario"
+        />
+      </section>
+    </header>
+    <main class="conteudo-principal">
+      <div class="video-principal-container">
+        <article class="video-principal">
+          <div class="video-container">
+            <iframe
+              src="https://www.youtube.com/embed/D9Zk2YKBOl8?list=PLPFhNx6dMDJpokM--TiI3xDUR7mbRbrre"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin"
+              allowfullscreen
+            ></iframe>
+          </div>
+          <h1 class="titulo-video-principal">
+            Semana Front-end: Dia 01: Construindo uma Landing Page no Mundo
+            Invertido com HTML e CSS
+          </h1>
+          <div class="info-canal">
+            <a href="https://www.dio.me" target="_blank" rel="noopener">
+              <img
+                src="./assets/img/logo-dio.jpg"
+                alt="Logo do canal DIO"
+                class="logo-canal"
+              />
+            </a>
+
+            <div class="dados-canal">
+              <h2 class="nome-canal">DIO</h2>
+              <p class="inscritos-canal">83,3 mil inscritos</p>
+            </div>
+            <a href="https://www.youtube.com" target="_blank" rel="noopener">
+              <button class="btn-inscrever">INSCREVA-SE</button>
+            </a>
+            <ul class="acoes-video">
+              <li>
+                <img src="./assets/img/gostar.png" alt="Curtir vídeo" />
+                <button class="btn-acao">2 mil</button>
+              </li>
+              <li>
+                <img src="./assets/img/nao-gosto.png" alt="Não gostei do vídeo" />
+                <button class="btn-acao">Não gostei</button>
+              </li>
+              <li>
+                <img
+                  src="./assets/img/compartilhar.png"
+                  alt="Compartilhar vídeo"
+                />
+                <button class="btn-acao">Compartilhar</button>
+              </li>
+              <li>
+                <img src="./assets/img/download.png" alt="Baixar vídeo" />
+                <button class="btn-acao">Download</button>
+              </li>
+            </ul>
+          </div>
+          <div class="descricao-video">
+            <p class="info-descricao">
+              <b>28.418 visualizações • Transmitido ao vivo em 23 ago. de 2022</b>
+            </p>
+            <p>
+              Inicie uma aventura imersiva no mundo do Front-end com HTML e CSS.
+              Para isso,<br />
+              criaremos uma landing page com a temática da série Stranger Things,
+              a qual<br />
+              contará com a implementação de um theme switcher (light e dark)
+              para<br />
+              explorarmos os mistérios do mundo invertido.
+            </p>
+          </div>
+        </article>
+      </div>
+      <aside class="relacionados">
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-ciencia-dados.png"
+            alt="Miniatura: Ciência de Dados - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Geração Tech Unimed - BH -<br />
+              Ciência de Dados
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>2,1 mil visualizações • há 2 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-scrum-talks.png"
+            alt="Miniatura: Scrum Talks - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>Scrum Talks</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,6 mil visualizações • há 3 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-ey-fast-track.png"
+            alt="Miniatura: Machine Learning Avançado - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Machine Learning Avançado -<br />
+              Fast Track
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,7 mil visualizações • há 4 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-project-planning.png"
+            alt="Miniatura: Global Skills Project Planning - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Global Skills #2 -<br />
+              Project Planning
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>971 visualizações • há 5 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-python-do-zero.png"
+            alt="Miniatura: Como aprender Python do ZERO - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Como aprender a programar<br />
+              Python do ZERO
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>711 visualizações • há 6 dias</p>
+          </div>
+        </article>
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-ciencia-dados.png"
+            alt="Miniatura: Ciência de Dados - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Geração Tech Unimed - BH -<br />
+              Ciência de Dados
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>2,1 mil visualizações • há 2 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-scrum-talks.png"
+            alt="Miniatura: Scrum Talks - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>Scrum Talks</h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,6 mil visualizações • há 3 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-ey-fast-track.png"
+            alt="Miniatura: Machine Learning Avançado - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Machine Learning Avançado -<br />
+              Fast Track
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>1,7 mil visualizações • há 4 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-project-planning.png"
+            alt="Miniatura: Global Skills Project Planning - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Global Skills #2 -<br />
+              Project Planning
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>971 visualizações • há 5 dias</p>
+          </div>
+        </article>
+
+        <article class="video-relacionado">
+          <img
+            src="./assets/img/image-python-do-zero.png"
+            alt="Miniatura: Como aprender Python do ZERO - DIO"
+            class="miniatura"
+          />
+          <div class="detalhes">
+            <h3>
+              Como aprender a programar<br />
+              Python do ZERO
+            </h3>
+            <p>DigitalInnovationOne</p>
+            <p>711 visualizações • há 6 dias</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+    <footer class="rodape">
+      <p>&copy; 2026 - Pedro Zeferino da Silva</p>
+    </footer>
+  </body>
+</html>
